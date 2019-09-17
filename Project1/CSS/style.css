@@ -1,0 +1,183 @@
+body {
+  /* Set margin to 0 pixels on all sides */
+  /* Set font family to be Helvetica or Arial */
+  /* Set line height to be 1.5 times larger than default */  
+
+   font-family: 'Open Sans', sans-serif;
+
+      margin-left:90px; 
+      margin-right:100px;
+       width: 850px
+       
+      /*text-align: center;*/
+}
+
+header {  
+
+          /*font-weight: 400px;*/
+       /*-webkit-font-smoothing: antialiased;*/
+     color: #697681;
+      
+      /*width: 800px*/
+      background: white;
+      height:150px;
+      /*padding:20x;*/
+  /* Set text alignment to center */
+}
+
+main {
+  /* Set maximum width to be 800 pixels */
+  /* Set margin to be automatically calculated on all sides */
+  /* Set padding to be 0 pixels top & bottom, and 20 pixels left & right */
+}
+
+p {
+  /* Set font color to be the hex code 333333 */
+}
+
+
+.flex-container{ 
+  /*this is form of can use to display section in dive tag */
+ display: flex;
+
+} 
+
+.vertical-centerer {
+    /*this is form of can use to apply culumn driction section in dive tag */
+      height: 100%;
+      flex-direction: column; 
+    
+  }
+
+.header-content {
+        /*this is form of can use to apply  on box inside heard  such asspace section in dive tag */
+   justify-content:space-between;
+     margin: 34px;  
+    
+    } 
+
+
+.logo img {  
+  /*this is form of can use to apply any style for logo element in header */
+  max-width:100px;
+   max-height:100px;
+   margin: 20px 10px;
+  /* Set opacity of the text to be 0.7 */
+} 
+
+.content h1   {  
+ /*this is form of can use to apply any style for h1 h2 element headr */
+    font-family:unset; 
+     font-size: 34px;
+  }
+
+ 
+ .line{ 
+/**this is form of can use to apply any style for on line under header element h*/
+display: inline-flex;
+height: 34px;
+width: 100%;
+margin:50%;
+ 
+  color: red; 
+  padding: 0px      
+}
+
+.centerimage{ 
+  /***this is form of can use to apply any style for onthe div contaner for center imageunder header element h*/ 
+    /*width: 850px  */
+
+} 
+ .imagecenter{width: 100%;                        
+ }
+
+#element>h2{
+ /**this is form of can use to apply any style for h1 elementin sectino*/
+ font-family: inherit; 
+  font-weight: 30px;
+font-size:30px;
+/*text-align: 34px;*/
+
+
+}
+ .boximage { 
+   display: flex;
+  /***this is container box form of can use to  control in image insiede box  element h*/ 
+    flex-direction: row; 
+  /*justify-content: center;*/
+
+ justify-content: space-between; 
+  width: 850px
+  /*background: red;*/
+}
+ 
+.image2>div{    text-align: center;           }
+.image2 img{
+      
+      max-height:200px;                                        
+ /*background: red; */
+ 
+   /*margin: auto;*/
+} 
+.text-image>p{   
+  font-family:  sans-serif;    
+ font-size: 25px;
+  }
+    .text-image>a { font-size: 25px   } 
+
+ 
+
+
+
+
+ img {
+  /* Set max width to be 100% of the containing element */
+}
+
+/*h1 {    font-size:40px;*/
+       /*color: red;  */
+       /*text-align:center ;   */
+
+  /* Set border along bottom to be a black solid line 5 pixels thick */
+/*}*/
+.box {   width:100px;
+height:100px ;
+background-color: gray; 
+}
+
+.hil
+h2 {
+  /* Set font color to be red (BONUS: try using a hex code like #e51b24!) */
+}
+
+footer>ul {
+  /* Set font color to white */
+  /* Set background color to black */
+  /* Set padding on all sides to be 20 pixels */
+  /* Set text alignment to center */
+  /* Set margin on top to be 60 pixels */
+} 
+
+footer>ul{                            
+  list-style-type: none;
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    
+      align-items: center;
+ }
+ /*li{   text-align-last: : space-between;  break-after:  column;               }*/
+
+
+@media (max-width: 600px) {
+
+  body {
+    /* Set the background color to be red */
+    /* Set the font color to be white */
+  }
+
+  /* Question - did the font color change? If not, why? Let's fix that below */
+
+  /* Where did the H2's go? See if you can fix that too! */
+
+}
